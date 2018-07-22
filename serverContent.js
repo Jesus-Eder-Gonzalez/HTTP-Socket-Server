@@ -182,10 +182,10 @@ a:hover{
 }`;
 
 module.exports = {
-  error :errorPage,
-  helium:heliumPage,
-  hydrogen:hydrogenPage,
-  index:indexPage,
-  styles:stylesPage
+  '/404.html' :errorPage,
+  '/helium.html':heliumPage,
+  '/hydrogen.html':hydrogenPage,
+  '/index.html':indexPage,
+  '/css/styles.css' :stylesPage
 };
 // export {errorPage, heliumPage, hydrogenPage, indexPage, stylesPage};
